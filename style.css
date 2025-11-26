@@ -263,7 +263,7 @@ nav{
     }
 
     .education-card img {
-        width: 300px;
+        width: 40vw;
         height: auto;
         object-fit: cover;
         border-radius: 8px;
@@ -346,5 +346,6 @@ nav{
     }
 
 }
+
 
 
