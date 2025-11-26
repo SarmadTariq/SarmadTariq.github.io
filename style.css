@@ -303,7 +303,7 @@ nav{
     }
 
     .education-card img {
-        max-width: 80vw;
+        padding: 0 10px;
     }
     #profile-section article img {
         position: static;
@@ -353,6 +353,7 @@ nav{
     }
 
 }
+
 
 
 
