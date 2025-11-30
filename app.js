@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const user = "10627800";
+    const user = "101627800";
     const domain = "georgebrown.ca";
     const link = document.querySelector(".email");
     
@@ -19,3 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 });
+
