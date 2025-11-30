@@ -337,7 +337,7 @@ nav{
     }
 
     /* ensure education cards use full available width on small screens */
-    #education-section, .education-card {
+    #education-section, .education-card, .education-card img {
         max-width: 100%;
         width: 100%;
         padding: 0;
@@ -357,5 +357,6 @@ nav{
         font-size: 0.75rem;
     }
 }
+
 
 
