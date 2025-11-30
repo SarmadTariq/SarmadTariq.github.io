@@ -272,6 +272,15 @@ nav{
         height: auto;
         object-fit: contain;
         border-radius: 8px;
+        display: block; /* remove inline whitespace/inline-block gaps */
+        box-sizing: border-box;
+    }
+
+    /* extra safety: ensure any image inside education section never exceeds viewport */
+    #education-section img {
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
 
     .education-card h3 {
