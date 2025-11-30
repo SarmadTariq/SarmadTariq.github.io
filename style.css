@@ -262,23 +262,20 @@ nav{
         align-items: center;
         text-align: center;
         padding-bottom: 2%;
-        /* constrain card width so images can scale down */
         max-width: 600px;
         width: 90%;
     }
 
     .education-card img {
-        /* make images responsive and prevent overflow on small screens */
         width: 100%;
         max-width: 500px;
         height: auto;
         object-fit: contain;
         border-radius: 8px;
-        display: block; /* remove inline whitespace/inline-block gaps */
+        display: block;
         box-sizing: border-box;
     }
-
-    /* extra safety: ensure any image inside education section never exceeds viewport */
+    
     #education-section img {
         max-width: 100%;
         height: auto;
@@ -346,13 +343,12 @@ nav{
     }
 
     /* ensure education cards use full available width on small screens */
-    #education-section .education-card {
-        width: 95%;
+    #education-section, .education-card {
+        width: 100%;
     }
 
     .skill-card,
-    .work-card,
-    .education-card {
+    .work-card {
         padding: 1rem;
     }
 
