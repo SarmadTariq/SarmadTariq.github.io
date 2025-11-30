@@ -19,9 +19,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
-}
-html{
+    max-width: 100vw;
     overflow-x: hidden;
 }
 nav{
@@ -367,3 +365,4 @@ nav{
         font-size: 0.75rem;
     }
 }
+
