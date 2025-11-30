@@ -275,12 +275,6 @@ nav{
         display: block;
         box-sizing: border-box;
     }
-    
-    #education-section img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
 
     .education-card h3 {
         font-family: 'Montserrat', sans-serif;
@@ -344,7 +338,9 @@ nav{
 
     /* ensure education cards use full available width on small screens */
     #education-section, .education-card {
+        max-width: 100%;
         width: 100%;
+        padding: 0;
     }
 
     .skill-card,
@@ -361,4 +357,5 @@ nav{
         font-size: 0.75rem;
     }
 }
+
 
