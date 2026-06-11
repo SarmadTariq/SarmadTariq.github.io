@@ -84,7 +84,7 @@ nav{
             font-size: 1.2rem;
         }
         .subtitle{
-            padding-top: 12vh;
+            padding-bottom: 12vh;
         }
         .buttons{
             display: flex;
